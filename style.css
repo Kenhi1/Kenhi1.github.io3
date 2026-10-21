@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+#calculator {
+    max-width: 480px;
+    margin: 30px auto;
+    padding: 0 15px;
+}
+
+.field {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+select,
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 8px 20px;
+    background-color: #4a6fa5;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.error {
+    color: #c62828;
+}
+
+.result {
+    font-weight: bold;
+}
